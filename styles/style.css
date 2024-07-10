@@ -1,0 +1,156 @@
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  /*shared style*/
+
+  .btn-primary{
+   background-color: #0D1321;
+   font: 700;
+   color: aliceblue;
+   padding: 18px 35px;
+  }
+
+/*nav styles*/
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.cls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header{
+    width: 2000px; 
+    height: 626px;
+    /* margin:  auto; */
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.full-banner{
+display: flex;
+justify-content: center;
+
+}
+.html{
+    width: 284px;
+    height: 219px;
+    background-color: aqua;
+}
+.css{
+    width: 284px;
+    height: 219px;
+    background-color: blanchedalmond;
+}
+.java{
+    width: 284px;
+    height: 219px;
+   background-color: cadetblue;
+}
+
+.section-description{
+    font-size: 16px;
+    color: #0D1321
+}
+
+.box{
+    display: flex;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 137px 214px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+/*main styles*/
+
+main{
+    max-width: 1059px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 477px;
+   
+}
+
+.banner-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content-3{
+    max-width: 477px;
+}
+
+.title{
+    border-radius: 10px;
+    padding: 137px 214px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.target{
+    border-radius: 10px;
+    padding: 137px 214px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.rafi{display: flex;
+    justify-content: space-between;
+
+}
+.last{
+   width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+     background-size: 1140px; 
+     
+}
+
+.handshake{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
