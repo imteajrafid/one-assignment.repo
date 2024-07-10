@@ -41,12 +41,22 @@ nav ul li{
     width: 2000px; 
     height: 626px;
     /* margin:  auto; */
-    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-image: url("../assets/Hero-bg.png");
+    
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     margin-top: 70px;
 
+}
+.header-2{
+    width: 1140px;
+    height: 313px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .full-banner{
@@ -136,12 +146,16 @@ main{
    width: 1140px;
     height: 313px;
     margin: 0 auto;
-    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-image: url("../assets/handshake.jpg");
     background-position: center; 
     background-repeat: no-repeat;
      background-size: 1140px; 
+     /* background: linear-gradient(to bottom, black 50%, black 50%); */
+     background: linear-gradient(to right, rgba ( 0,0,0.4)), rgba(255, 0, 0, 0.5));
      
 }
+
+
 
 .handshake{
     display: flex;
@@ -151,6 +165,13 @@ main{
 .banner-2{
     display: flex;
     justify-content: space-between;
+}
+
+.foot{
+    display: flex;
+   justify-content: center;
+  background-color: antiquewhite;
+  justify-content: space-between;
 }
 
 
