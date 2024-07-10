@@ -142,16 +142,15 @@ main{
     justify-content: space-between;
 
 }
-.last{
+.last-banner{
    width: 1140px;
     height: 313px;
     margin: 0 auto;
     background-image: url("../assets/handshake.jpg");
     background-position: center; 
     background-repeat: no-repeat;
-     background-size: 1140px; 
-     /* background: linear-gradient(to bottom, black 50%, black 50%); */
-     background: linear-gradient(to right, rgba ( 0,0,0.4)), rgba(255, 0, 0, 0.5));
+   align-items: center;
+     
      
 }
 
